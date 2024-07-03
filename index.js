@@ -1,0 +1,1 @@
+console.log(`agentgraph/index.js loaded at\n${Date()}`);
