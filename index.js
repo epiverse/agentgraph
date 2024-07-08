@@ -1,9 +1,7 @@
 console.log(`agentgraph/index.js loaded at\n${Date()}`);
 
-
-
 (async function(){
-    const AG = await import(location.href+'agentGraph.mjs');
+    AG = await import(location.href+'agentGraph.mjs');
     ag = new AG.agentGraph
-    //debugger
-})()
+    // await import(`https://epiverse.github.io/agentgraph/agentgraph.css`)
+})();
